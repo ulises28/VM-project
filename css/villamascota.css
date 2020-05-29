@@ -1,0 +1,65 @@
+.remove-all-margin-padding{
+    margin:0 ! important;
+    padding:0 ! important;
+    }
+#headerLink{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.loginContainer
+{
+    height: 60%;
+    align-content: center; 
+    background-color: #FF4136;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
+
+.mainCarouselContainer {
+    margin:0 ! important;
+    padding:0 ! important;
+    border: 0 ! important;
+}
+
+ .carouselImg img {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+    overflow: hidden;
+
+ }
+
+ .mainCaruselText h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-shadow:  0px 0px 3px black ! important;
+  }
+
+  .mainCaruselText p{
+    color: white;
+    line-height: 0.8  !important;
+    font-size: 20px;
+    text-shadow: 0px 0px 3px black !important;
+  }

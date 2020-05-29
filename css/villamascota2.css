@@ -1,0 +1,85 @@
+body{
+  background-color: black;
+}
+
+
+
+#cabecera
+{
+position: static;
+display: block;								/*contrno del padding con otras cajas--> margin: length|auto|initial|inherit;*/
+text-align: center;							/*este texto ira en el centro*/
+padding: 5px;								/*contorno del elemento (texto) de 20 px*/
+/* box-shadow: #8B0000 5px 5px 10px inset;  	sombra de la caja de la cabecera --> *box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit;*/
+background-color: black;
+background-image: linear-gradient(red, black);
+}
+
+.subHeader 
+
+{
+
+  padding: 0px;
+  text-align: right; 
+}
+
+#loginButton
+
+{
+    padding: 2px;
+    font-size: 12px;
+    background-color: red;
+    border: 2px solid white; 
+    border-radius: 5px;
+    margin: 15px auto;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+#loginButton:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid red; 
+    border-radius: 5px;
+  }
+
+#saludo{
+  color:white;
+  text-shadow: black 3px 3px 2px, rgba(255, 145, 0, 0.74) 3px 3px 5px;
+}
+
+#menu
+{
+  position: sticky;
+  position: -webkit-sticky;
+  text-align:center;
+  background-color: black;
+  padding: 15px;
+  top: -1px;
+}
+#menu ul
+
+{
+
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+  zoom: 1;
+  position: relative;
+}
+
+#menu li 
+{
+  display: inline-block;
+  list-style: none;
+  display: inline-flex;
+  padding: 7px;
+  text-decoration: none;
+  color: white !important;
+  }
+
+#menu li:hover {
+  list-style: none;
+  background-color: red;
+  text-decoration: none
+}
